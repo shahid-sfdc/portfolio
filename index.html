@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shahid Rizvi | Salesforce Developer</title>
+    <!-- Modern Typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <!-- Mobile Menu Toggle -->
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+                <li><button id="theme-toggle" class="theme-toggle" aria-label="Toggle Dark Mode">🌙</button></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero-section">
+        <div class="container hero-container">
+            <div class="hero-text">
+                <h1 class="greeting">Hi, I am Shahid,</h1>
+                <h2 class="role">Salesforce Developer</h2>
+                <p class="summary">
+                    Salesforce Developer with 1+ year of hands-on experience in Apex, Lightning Web Components, Flows,
+                    and core CRM configurations, aiming to leverage strong technical and analytical skills to build
+                    scalable, business-focused solutions.
+                </p>
+                <a href="/Users/abidrizvi/.gemini/antigravity/brain/e683679a-4c08-4d33-b104-851011dde09e/uploaded_image_1766608959060.png"
+                    download class="cta-button">Download Resume</a>
+                <!-- Note: Linking to abstract resume file, ideally this would be the actual DOCX if available in file system, user only provided text. Using a placeholder link action. -->
+            </div>
+            <div class="hero-image-wrapper">
+                <img src="/Users/abidrizvi/.gemini/antigravity/brain/e683679a-4c08-4d33-b104-851011dde09e/uploaded_image_1766610396095.jpg"
+                    alt="Shahid Rizvi" class="hero-image">
+            </div>
+        </div>
+    </header>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h3 class="section-title">Projects</h3>
+            <div class="projects-grid">
+
+                <!-- Project 1 -->
+                <a href="https://github.com/shahid-sfdc/Search-Engine-Account-Object" target="_blank"
+                    class="project-card">
+                    <img src="https://github.com/user-attachments/assets/511236dd-b5e9-4a13-8519-8bd0defa5f7c"
+                        alt="Search Engine Account Object" class="project-thumb">
+                    <div class="project-content">
+                        <h4 class="project-title">Search Engine Account Object</h4>
+                        <div class="project-tags">
+                            <span class="tag">LWC</span>
+                            <span class="tag">Apex</span>
+                            <span class="tag">SLDS</span>
+                        </div>
+                        <p class="project-desc">
+                            A Lightning Web Component (LWC) designed to help users quickly search and view Salesforce
+                            Account records through a clean and responsive interface. Features real-time search with
+                            debouncing logic and dynamic Apex querying.
+                        </p>
+                    </div>
+                </a>
+
+                <!-- Project 2 -->
+                <a href="https://github.com/shahid-sfdc/To_Do_Manager_sfdc" target="_blank" class="project-card">
+                    <img src="https://github.com/user-attachments/assets/fcd6e3b2-fb56-4504-b3ab-5c487d13d609"
+                        alt="To-Do Manager" class="project-thumb">
+                    <div class="project-content">
+                        <h4 class="project-title">To-Do Manager</h4>
+                        <div class="project-tags">
+                            <span class="tag">LWC</span>
+                            <span class="tag">JavaScript</span>
+                        </div>
+                        <p class="project-desc">
+                            A powerful To-Do Manager built on Salesforce LWC. Features include auto-sorting of
+                            incomplete tasks, task completion tracking, deletion, and duplicate prevention, all wrapped
+                            in a responsive UI.
+                        </p>
+                    </div>
+                </a>
+
+                <!-- Project 3 -->
+                <a href="https://github.com/shahid-sfdc/Dynamic-form-ui" target="_blank" class="project-card">
+                    <img src="/Users/abidrizvi/.gemini/antigravity/brain/e683679a-4c08-4d33-b104-851011dde09e/uploaded_image_1766612493286.png"
+                        alt="Dynamic Account Creation Form" class="project-thumb">
+                    <div class="project-content">
+                        <h4 class="project-title">Dynamic Account Creation Form</h4>
+                        <div class="project-tags">
+                            <span class="tag">LWC</span>
+                            <span class="tag">Apex (Promise)</span>
+                        </div>
+                        <p class="project-desc">
+                            A fully customized LWC form for creating Account records without standard Salesforce
+                            components. Handles parent account lookups, SLA selection, and validation using
+                            Promise-based Apex calls.
+                        </p>
+                    </div>
+                </a>
+
+                <!-- Project 4 -->
+                <a href="https://github.com/shahid-sfdc/Spotify-Integration-Apex" target="_blank" class="project-card">
+                    <img src="https://github.com/user-attachments/assets/45a43545-a452-4ce0-b31e-c229829e29e5"
+                        alt="Spotify Integration Apex" class="project-thumb">
+                    <div class="project-content">
+                        <h4 class="project-title">Spotify Integration Apex</h4>
+                        <div class="project-tags">
+                            <span class="tag">Apex</span>
+                            <span class="tag">REST API</span>
+                            <span class="tag">OAuth 2.0</span>
+                        </div>
+                        <p class="project-desc">
+                            Integration connecting Salesforce to Spotify’s REST API using Named Credentials and OAuth
+                            2.0. Capabilities include fetching user profiles, checking playlist visibility, and creating
+                            playlists directly from Salesforce.
+                        </p>
+                    </div>
+                </a>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section">
+        <div class="container">
+            <h3 class="section-title">Experience</h3>
+            <div class="experience-list">
+                <div class="experience-item">
+                    <div class="exp-header">
+                        <h4 class="exp-role">Salesforce Developer</h4>
+                        <span class="exp-company">Revault (Remote)</span>
+                        <span class="exp-date">Dec 2024 – Sep 2025</span>
+                    </div>
+                    <ul class="exp-details">
+                        <li>Enhanced the LeapTree managed package within Salesforce Service Console to refine scorecard
+                            workflows, dispute resolution, and quality review processes for service teams.</li>
+                        <li>Supported and extended integrations using REST APIs to ensure seamless data exchange between
+                            Salesforce and external systems.</li>
+                        <li>Developed Apex Triggers, Batch Classes, and Flows to automate evaluation logic, dispute
+                            lifecycles, and recurring backend operations.</li>
+                        <li>Designed custom objects and streamlined page layouts to enable new LeapTree functionalities
+                            and support diverse business scenarios.</li>
+                        <li>Built Lightning Web Components (LWCs) to deliver intuitive, responsive UI experiences for
+                            STMs and QTMs.</li>
+                        <li>Diagnosed and resolved defects across Apex, LWCs, and Flows, improving system stability and
+                            overall user experience.</li>
+                        <li>Optimized SOQL queries and corrected UI issues to improve performance with high-volume
+                            scorecard and quality review data.</li>
+                        <li>Created robust test classes with strong code coverage to support reliable deployments and
+                            long-term maintainability.</li>
+                        <li>Managed profiles, permission sets, and sharing settings to ensure appropriate access to
+                            LeapTree features across user groups.</li>
+                        <li>Utilized Scratch Orgs, VS Code, Git, and Jira for development, version control, and task
+                            management within agile workflows.</li>
+                        <li>Built Proof of Concepts (POCs) to validate UI designs, LWC layouts, and process improvements
+                            prior to full development.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <div class="container">
+            <h3 class="section-title">Skills</h3>
+
+            <div class="skills-category">
+                <h5 class="skill-cat-title">Salesforce (Core)</h5>
+                <div class="skill-tags">
+                    <span>Data Loader</span><span>Import Wizard</span><span>Schema
+                        Builder</span><span>Flows</span><span>Approval Processes</span><span>Validation
+                        Rules</span><span>Page Layouts</span><span>Relationship Models</span><span>Reports &
+                        Dashboards</span><span>Data Security</span><span>Sales Cloud</span><span>Service
+                        Cloud</span><span>Flow Debugging</span>
+                </div>
+            </div>
+
+            <div class="skills-category">
+                <h5 class="skill-cat-title">Development</h5>
+                <div class="skill-tags">
+                    <span>Apex Classes</span><span>Triggers</span><span>LWC</span><span>SOQL & SOSL</span><span>REST
+                        API</span><span>JSON Parsing</span><span>Asynchronous Processing</span>
+                </div>
+            </div>
+
+            <div class="skills-category">
+                <h5 class="skill-cat-title">Tools & Modules</h5>
+                <div class="skill-tags">
+                    <span>VS Code</span><span>Git & GitHub</span><span>Salesforce
+                        CLI</span><span>Postman</span><span>Jira</span><span>Azure DevOps</span><span>Salesforce
+                        Inspector</span>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section footer-section">
+        <div class="container">
+            <h3 class="section-title">Contact</h3>
+            <div class="contact-links">
+                <a href="mailto:rizvishahid309@gmail.com" class="contact-link">rizvishahid309@gmail.com</a>
+                <a href="https://www.linkedin.com/in/shahid-rizvi-b66871194" target="_blank"
+                    class="contact-link">LinkedIn</a>
+                <a href="https://github.com/shahid-sfdc" target="_blank" class="contact-link">GitHub</a>
+            </div>
+            <div class="copyright">
+                &copy; 2025 Shahid Rizvi. All rights reserved.
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
